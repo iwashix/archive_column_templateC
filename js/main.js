@@ -9,7 +9,7 @@ $(document).ready(function () {
         if (scrollPosition > 300) {
             scrollToTopBtn.css({
                 opacity: "1",
-                transform: "translate(0)",
+                transform: "translateY(0)",
             });
         } else {
             scrollToTopBtn.css({
